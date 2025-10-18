@@ -18,6 +18,10 @@ h1{
     font-size: 65px;
 }
 
+button{
+    cursor: pointer;
+}
+
 .containerImg{
     background-color:#FF505B;
     background-image: url("/public/img/bg-pattern-intro-desktop.svg");
@@ -91,3 +95,38 @@ h1{
     border: 1px solid white;
     border-radius: 30px;
 }
+
+/*************************************/
+.backgroundImg{
+    height: 950px;
+    background-image: url("/public/img/illustration-editor-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-x: 135%;
+    background-position-y: 50%;
+}
+
+.containerCont1{
+    padding: 120px 0px;
+    height: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.containerCont1 h2{
+    color: hsl(208, 49%, 24%);
+    font-size: 36px;
+    text-align: center;
+}
+
+.containerCont1 div{
+    width: 60%;
+    margin-top: 110px;
+    line-height: 26px;
+}
+
+.containerCont1 h3{
+    color: hsl(208, 49%, 24%);
+    font-size: 28px;
+    margin: 0px 0 15px 0;
+}
+
