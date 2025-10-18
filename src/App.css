@@ -5,10 +5,17 @@
 }
 
 body{
+    font-size: 16px;
     font-family: "Overpass", Arial, Helvetica, sans-serif;
 }
 
-ul{
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul,
+li{
     list-style-type: none;
 }
 
@@ -120,7 +127,7 @@ button{
 
 .containerCont1 div{
     width: 60%;
-    margin-top: 110px;
+    margin-top: 100px;
     line-height: 26px;
 }
 
@@ -167,4 +174,59 @@ button{
    line-height: 28px;
 }
 
+/*****************************************/
+.containerImg3{
+    height: 1000px;
+    background-image: url("/public/img/illustration-laptop-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-x: -90%;
+    background-position-y: 50%;
+    background-size: 70%;
+}
 
+.contentSez3{
+    width: 40%;
+    padding: 200px 25px;
+    margin: 0 50%;
+}
+
+.contentSez3 div{
+    margin: 80px 0;
+}
+
+.contentSez3 h3{
+    color: #3A3B59;
+    font-size: 28px;
+    margin: 0px 0 30px 0;
+}
+
+.contentSez3 span{
+    line-height: 28px;
+}
+
+/*************************/
+.footer{
+    background-color: #24242C;
+    border-radius: 0 150px 0 0;
+    padding: 40px;
+}
+
+.footerGrid{
+    width: 80%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footerGrid h4{
+    color: white;
+    margin-bottom: 60px;
+}
+
+.ulFlex li{
+    margin: 20px 0;
+}
+
+.footerGrid img{
+    max-width: 40%;
+}
