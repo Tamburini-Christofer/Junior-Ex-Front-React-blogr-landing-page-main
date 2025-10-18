@@ -1,12 +1,36 @@
-import './App.css'
+import "./App.css";
 
-function App() {
+//todo Header components
+import HeaderNav from "./assets/components/header/HeaderNav";
+import Header from "./assets/components/header/Header";
 
+//todo Content components
+import ContentSez1 from "./assets/components/main/ContentSez1";
+import ContentSez2 from "./assets/components/main/ContentSez2";
+import ContentSez3 from "./assets/components/main/ContentSez3";
+
+//todo Footer components
+import Footer from "./assets/components/footer/Footer";
+
+function app() {
   return (
     <>
-
+      <body>
+        <header>
+          <HeaderNav />
+          <Header />
+        </header>
+        <main>
+          <ContentSez1 />
+          <ContentSez2 />
+          <ContentSez3 />
+        </main>
+        <footer>
+          <Footer />
+        </footer>
+      </body>
     </>
-  )
+  );
 }
 
-export default App
+export default app;
