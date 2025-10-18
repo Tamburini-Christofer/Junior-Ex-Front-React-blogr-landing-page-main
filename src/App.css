@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Overpass", Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.containerImg{
+    height: 600px;
+    background-color:#FF505B;
+    background-image: url("/public/img/bg-pattern-intro-desktop.svg");
+    background-position-y: 51%;
+    background-position-x: 17%;
+}
+
+.containerNav{
+    font-weight: 700;
+    color: hsl(0, 0%, 77%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.containerNav img{
+    float: left;
+    margin-right: 20px;
+}
+
+.containerNav ul{
+    display: flex;
+}
+
+.containerNav li{
+    margin: 10px 40px;
+}
+
+.btnSign{
+    color: #FF525C;
+    font-weight: 600;
+    padding: 15px 40px;
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+    margin: 0 40px;
+}

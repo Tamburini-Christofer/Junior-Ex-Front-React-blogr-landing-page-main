@@ -17,8 +17,9 @@ function app() {
     <>
       <body>
         <header>
-          <NavBar />
+          <div className="containerImg">      <NavBar />
           <Header />
+          </div>
         </header>
         <main>
           <ContentSez1 />
