@@ -1,7 +1,7 @@
 import "./App.css";
 
 //todo Header components
-import HeaderNav from "./assets/components/header/HeaderNav";
+import NavBar from "./assets/components/header/NavBar";
 import Header from "./assets/components/header/Header";
 
 //todo Content components
@@ -17,7 +17,7 @@ function app() {
     <>
       <body>
         <header>
-          <HeaderNav />
+          <NavBar />
           <Header />
         </header>
         <main>
