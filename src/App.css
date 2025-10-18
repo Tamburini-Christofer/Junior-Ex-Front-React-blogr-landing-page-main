@@ -62,6 +62,11 @@ button{
     margin: 10px 40px;
 }
 
+.containerNav li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .btnSign{
     color: #FF525C;
     font-weight: 600;
@@ -70,6 +75,12 @@ button{
     border: 0;
     border-radius: 30px;
     margin: 0 40px;
+}
+
+.btnSign:hover,
+.btnStart:hover{
+    background-color: #FF7B86 ;
+    color: white;
 }
 
 .containerHeader{
@@ -101,6 +112,11 @@ button{
     padding: 15px 20px;
     border: 1px solid white;
     border-radius: 30px;
+}
+
+.btnLearn:hover{
+    background-color: white;
+    color: #FF6462;
 }
 
 /*************************************/
@@ -179,9 +195,9 @@ button{
     height: 1000px;
     background-image: url("/public/img/illustration-laptop-desktop.svg");
     background-repeat: no-repeat;
-    background-position-x: -90%;
+    background-position-x: -60%;
     background-position-y: 50%;
-    background-size: 70%;
+    background-size: 60%;
 }
 
 .contentSez3{
@@ -225,6 +241,10 @@ button{
 
 .ulFlex li{
     margin: 20px 0;
+}
+
+.ulFlex li a:hover{
+    text-decoration: underline;
 }
 
 .footerGrid img{

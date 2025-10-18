@@ -3,7 +3,7 @@ const ContentSez1 = () => {
         <>
         <div className="backgroundImg">
             <div className="containerCont1">
-                <h2>Designed fot the future</h2>
+                <h2>Designed for the future</h2>
                 <div>
                     <div>
                         <h3>Introducing an extensible editor </h3>
